@@ -1,13 +1,13 @@
 import React from 'react'
-import './App.scss'
+import classes from './App.module.scss'
 
 export const App: React.FC = () => {
 	const [count, setCount] = React.useState(0)
 	const increment = () => setCount(prev => prev + 1)
 	return (
-		<div className='container'>
+		<div className={classes.container}>
 			<div>{count}</div>
-			<button className='btn' onClick={increment}>
+			<button className={classes.btn} onClick={increment}>
 				+
 			</button>
 			<h1>Состав сборки:</h1>
