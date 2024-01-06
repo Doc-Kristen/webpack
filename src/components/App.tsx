@@ -17,7 +17,7 @@ export const App: React.FC = () => {
 				<li>React</li>
 				<li>SCSS</li>
 			</ul>
-            <p>Happy coding!</p>
+			<p>Happy coding!</p>
 		</div>
 	)
 }
