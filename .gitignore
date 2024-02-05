@@ -1,14 +1,3 @@
-.DS_Store
+/build
+node_modules
 .idea
-.vscode
-.nvmrc
-build
-*.ai
-*.log
-*.psd
-*.sublime*
-node_modules/
-npm-debug.*
-source/css/*.css
-source/css/*.map
-Thumbs.db
